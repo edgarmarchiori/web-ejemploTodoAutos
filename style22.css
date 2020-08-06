@@ -1,0 +1,61 @@
+.btn-medium{
+	    border: 2px solid green;
+    background-color: green;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 30px; 
+}
+p a:hover{
+	text-decoration: none;
+	color:white;
+	background-color:#034e03; 
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.7) ;
+}
+.card{
+	background-image:url("imagenes/camaro.png");
+	height:200px;
+	width:300px;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	color:blue;
+	margin:10px;
+}
+.category{
+	position:absolute;
+	background-color:lightblue;
+	padding:5px 10px;
+	border-radius:6px;
+	color:black;
+	top:20px;
+	left:20px;
+
+}
+.avatar{
+	border-radius:50%;
+	border:2px solid black;
+	height:50px;
+	width:50px;
+	position: absolute;
+	bottom:20px;
+	right:20px;
+}
+.informacion{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
+.e{
+	padding:5px ;
+	position: absolute;
+	border-radius:50%;
+	background-color:black;
+	color: lightblue;
+	bottom:50px;
+	right:10px;
+}
+.d-flex{
+	    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
